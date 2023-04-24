@@ -14,8 +14,8 @@ score = 0
 
 
 def init_engine():
-    engine.import_image("paddle.png", "paddle")
-    engine.import_image("ball.png", "ball")
+    engine.import_image("Assets/paddle.png", "paddle")
+    engine.import_image("Assets/ball.png", "ball")
 
 
 def update():
@@ -55,8 +55,8 @@ def update():
     if ball_x < 6 and paddle2_y < ball_y < paddle2_y + 16:
         dx = 0.5
 
-    if ball_y < paddle2_y + 8: paddle2_y -= 0.38
-    if ball_y > paddle2_y + 8: paddle2_y += 0.38
+    if ball_y < paddle2_y + 8: paddle2_y -= 0.39
+    if ball_y > paddle2_y + 8: paddle2_y += 0.39
 
 
 def draw():
