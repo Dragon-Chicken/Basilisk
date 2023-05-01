@@ -10,21 +10,26 @@
 This is all the functions and what they do
 
 ## init_engine()
-`image_import()` goes here NOT variables
+### image_import(image, object_name)
+`image` is the file path to the image you want to load
+
+`object_name` is the name you want to reference in the `draw()` function
+
+### import_sfx(sfx, sfx_name)
+`sfx` is the file path to the sound effect
+
+`sfx_name` it the name you want to reference latter on in the code
+
 
 ## update()
 This updates every frame at 60 FPS
 
 Here you put variables to be updated every frame
 
+### play_sfx(sfx_name)
+`sfx_name` is the name of the sound effect you want to play
+
 ## draw()
-Draws on the screen
-
-### image_import(image, object_name)
-`image` is the file path to the image you want to load
-
-`object_name` is the name you want to reference in the `draw()` function
-
 ### draw(object_name, x, y)
 `object_name` is the name of the image you imported
 
