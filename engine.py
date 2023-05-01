@@ -7,7 +7,24 @@ pygame.display.set_caption('game')
 
 font = pygame.font.Font('Assets/Pixel-type.ttf', 15)
 
-surfs = []
+images = []
+SFXs = []
+
+# sfx
+
+
+def import_sfx(sfx, sfx_name):
+    global SFXs
+    sfx_name = sfx_name.lower()
+    SFXs.append([sfx_name, pygame.mixer.Sound(sfx)])
+
+
+def play_sfx(sfx_name):
+    global SFXs
+    sfx_name = sfx_name.lower()
+    for sfx in SFXs:
+        if sfx[0] == sfx_name:
+            sfx[1].play()
 
 # update
 
@@ -21,16 +38,18 @@ def key_down(key):
 # draw
 
 
-def import_image(image, name):
-    global surfs
-    surfs.append([name, pygame.image.load(image).convert_alpha()])
+def import_image(image, object_name):
+    global images
+    object_name = object_name.lower()
+    images.append([object_name, pygame.image.load(image).convert_alpha()])
 
 
 def draw(object_name, x, y):
     x = int(x)
     y = int(y)
-    global surfs
-    for image in surfs:
+    global images
+    object_name = object_name.lower()
+    for image in images:
         if image[0] == object_name:
             surf = image[1]
             surf = pygame.transform.scale(surf, (surf.get_width()*10, surf.get_height()*10))
