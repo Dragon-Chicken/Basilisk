@@ -38,9 +38,9 @@ def key_down(key):
 # draw
 
 
-def import_image(image, object_name):
+def image_import(image, image_name):
     global images
-    object_name = object_name.lower()
+    object_name = image_name.lower()
     images.append([object_name, pygame.image.load(image).convert_alpha()])
 
 
