@@ -14,8 +14,8 @@ score = 0
 
 
 def init_engine():
-    engine.import_image("Assets/paddle.png", "paddle")
-    engine.import_image("Assets/ball.png", "ball")
+    engine.image_import("Assets/paddle.png", "paddle")
+    engine.image_import("Assets/ball.png", "ball")
 
     engine.import_sfx("Assets/Hit.wav", "ball_hit")
     engine.import_sfx("Assets/Score.wav", "score")
