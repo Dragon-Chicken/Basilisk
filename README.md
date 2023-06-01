@@ -10,3 +10,5 @@ IMPORTANT
 2. Make a file called `main.py` or anything you want (if you choose to name it something else you need to edit the code in the [engine.py](https://github.com/Dragon-Chicken/DragonEngine/blob/main/engine.py) file at lines 2, 52, 60, and 61)
 3. PLEASE DOWNLOAD THE LIBRARY PYGAME https://pypi.org/project/pygame/
 4. PLEASE ADD A FONT IF YOU PLAN ON USING THE `text()` FUNCTION or use the one in [Assets](https://github.com/Dragon-Chicken/Basilisk/tree/main/Assets)
+
+Curent version: 1.0
