@@ -1,3 +1,6 @@
+# Basilisk Engine
+# Version: 1
+
 import pygame
 import main
 
