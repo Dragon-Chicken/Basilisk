@@ -1,4 +1,4 @@
-![Logo2](https://user-images.githubusercontent.com/70321204/235853173-d2dae64b-5d2c-417e-9466-6a4b5eacabcb.png)
+![Banner](https://github.com/Dragon-Chicken/Basilisk/assets/70321204/7293c7a2-2992-44da-aa08-65cdbbf3fdff)
 
 [How To Download](https://github.com/Dragon-Chicken/Basilisk/wiki/HOW-DO-DOWNLOAD)
 
