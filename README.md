@@ -6,9 +6,9 @@
 
 IMPORTANT
 
-1. Only the [engine.py](https://github.com/Dragon-Chicken/DragonEngine/blob/main/engine.py) file is needed
-2. Make a file called `main.py` or anything you want (if you choose to name it something else you need to edit code in the [engine.py](https://github.com/Dragon-Chicken/DragonEngine/blob/main/engine.py) file at line 6)
-3. PLEASE DOWNLOAD THE LIBRARY PYGAME https://pypi.org/project/pygame/
-4. PLEASE ADD A FONT IF YOU PLAN ON USING THE `text()` FUNCTION or use the one in [Assets](https://github.com/Dragon-Chicken/Basilisk/tree/main/Assets)
+1. Only [engine.py](https://github.com/Dragon-Chicken/DragonEngine/blob/main/engine.py) is needed
+2. Make a file called `main.py` or anything you want (if you choose to name it something else you need to edit code in the [engine.py](https://github.com/Dragon-Chicken/DragonEngine/blob/main/engine.py) at line 6)
+3. Download the [Pygame library](https://pypi.org/project/pygame/)
+4. Add a font or use the one in [Assets](https://github.com/Dragon-Chicken/Basilisk/tree/main/Assets)
 
 Version 1.0
