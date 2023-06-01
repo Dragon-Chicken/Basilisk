@@ -11,4 +11,4 @@ IMPORTANT
 3. PLEASE DOWNLOAD THE LIBRARY PYGAME https://pypi.org/project/pygame/
 4. PLEASE ADD A FONT IF YOU PLAN ON USING THE `text()` FUNCTION or use the one in [Assets](https://github.com/Dragon-Chicken/Basilisk/tree/main/Assets)
 
-Curent version: 1.0
+Version 1.0
