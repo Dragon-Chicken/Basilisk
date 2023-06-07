@@ -8,7 +8,7 @@ import main as main
 pygame.init()
 display = pygame.display.set_mode((640, 640))
 pygame.display.set_caption("Pong")
-pygame.display.set_icon(pygame.image.load("Engine stuff/Basilisk.png"))
+pygame.display.set_icon(pygame.image.load("Engine requirements/Basilisk.png"))
 screen = pygame.Surface((64, 64))
 
 
