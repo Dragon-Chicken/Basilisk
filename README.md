@@ -11,4 +11,4 @@ IMPORTANT
 3. Download the [Pygame library](https://pypi.org/project/pygame/)
 4. Add a font or use the one in [Engine requirements](https://github.com/Dragon-Chicken/Basilisk/tree/90648573a8b2e83a6132a12d9e46ba2bb27ec01a/Engine%20requirements)
 
-Version 1.0
+Version 1.1
